@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            kekw
+        </title>
+        <link rel="stylesheet" href="dorim.css">
+    </head>
+    <body>
+        <button type="button" onclick="kekw()">klik me</button><br/>
+        <form>
+            <label for="value">numer do zrobienia silni</label><br/>
+            <input type="text" id="value" name="value"></input>
+        </form><br/>
+        <button type="button" onclick="silnia(document.getElementById('value').value)">silnia</button>
+        <button type="button" onclick="zamiensilniewnapis(document.getElementById('value').value)">napis</button>
+        <button type="button" onclick="wypisztabelke()">tabelka to kurwa</button>
+        <br/>
+        <br/>
+        <form>
+            <label for="imie">imie</label>
+            <input type="text" id="imie" name="imie"></input>
+            <label for="wzrost">imie</label>
+            <input type="text" id="wzrost" name="wzrost"></input>
+        </form>
+        <button type="button" onclick="dodajtypa(document.getElementById('imie').value,document.getElementById('wzrost'))">dodajtypa</button>
+        <button type="button" onclick="wypisztypiarzy()">chuj</button>
+        <script src="useless.js"></script>
+        <p id="wynik">aaa</p>
+    </body>
+</html>

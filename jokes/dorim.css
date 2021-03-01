@@ -1,0 +1,10 @@
+body {
+    background-color: lightpink;
+}
+button {
+    color: hotpink;
+}
+table,td{
+    border-style: solid;
+    border-collapse: collapse;
+}
