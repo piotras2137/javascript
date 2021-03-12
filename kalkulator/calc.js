@@ -16,6 +16,10 @@ function str(x)
     }
     else
     {
+        if (x=='.')
+        {
+            console.log("jest kropka");
+        }
     document.getElementById("wynik").value+=x;
     }
 }

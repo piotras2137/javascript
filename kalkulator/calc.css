@@ -2,9 +2,26 @@ table{
     text-align: center;
     margin: auto;
     width: 10%;
-    border: 3px solid green;
     padding: 5px;
+    background-color: #454545;
 }
-button{
+.button{
     width: 100%;
+    color: lightgray;
+    font-weight: bold;
+}
+.task{
+    background-color: dimgray;
+}
+.num{
+    background-color: slategrey;
+}
+.fn{
+    background-color: dimgrey;
+}
+input{
+    background-color: lightgray;
+    color: #454545;
+    text-align: right;
+    font-weight: bolder;
 }

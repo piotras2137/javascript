@@ -9,43 +9,43 @@
         <h2>it was written in around 45 minutes by Piotras2137</h2>
         <table>
             <tr>
-                <td>
+                <th>
                     <form id="kutas">
                         <input type="text" name="wynik", id="wynik"></input>
                     </form>
-                </td>
+                </th>
             </tr>
         </table>
         <table>
             <tr id="typicalbutton">
-                <th><button type="button"  onclick="C()">C</button></th>
-                 <th><button type="button"  onclick="bs()">bs</button></th>
-                  <th><button type="button"  onclick="tak('%')">%</button></th>
-                   <th><button type="button"  onclick="task('/')">/</button></th>
+                <th><button class="button fn"  onclick="C()">C</button></th>
+                 <th><button class="button fn"  onclick="bs()">bs</button></th>
+                  <th><button class="button task"  onclick="task('%')">%</button></th>
+                   <th><button class="button task"  onclick="task('/')">/</button></th>
             </tr>
             <tr>
-                <th><button type="button" id="c" onclick="str('7')">7</button></th>
-                 <th><button type="button"  onclick="str('8')">8</button></th>
-                  <th><button type="button"  onclick="str('9')">9</button></th>
-                   <th><button type="button" id="mul" onclick="task('*')">*</button></th>
+                <th><button class="button num" id="c" onclick="str('7')">7</button></th>
+                 <th><button class="button num"  onclick="str('8')">8</button></th>
+                  <th><button class="button num"  onclick="str('9')">9</button></th>
+                   <th><button class="button task" id="mul" onclick="task('*')">*</button></th>
             </tr>
             <tr>
-                <th><button type="button"  onclick="str('4')">4</button></th>
-                 <th><button type="button"  onclick="str('5')">5</button></th>
-                  <th><button type="button"  onclick="str('6')">6</button></th>
-                   <th><button type="button"  onclick="task('-')">-</button></th>
+                <th><button class="button num"  onclick="str('4')">4</button></th>
+                 <th><button class="button num"  onclick="str('5')">5</button></th>
+                  <th><button class="button num"  onclick="str('6')">6</button></th>
+                   <th><button class="button task"  onclick="task('-')">-</button></th>
             </tr> 
             <tr>
-                <th><button type="button" onclick="str('1')">1</button></th>
-                 <th><button type="button" onclick="str('2')">2</button></th>
-                  <th><button type="button" onclick="str('3')">3</button></th>
-                   <th><button type="button" onclick="task('+')">+</button></th>
+                <th><button class="button num" onclick="str('1')">1</button></th>
+                 <th><button class="button num" onclick="str('2')">2</button></th>
+                  <th><button class="button num" onclick="str('3')">3</button></th>
+                   <th><button class="button task" onclick="task('+')">+</button></th>
             </tr>
             <tr>
-                <th><button type="button"  onclick="rewerse()">-/+</button></th>
-                 <th><button type="button"  onclick="str('0')">0</button></th>
-                  <th><button type="button"  onclick="str('.')">.</button></th>
-                   <th><button type="button"  onclick="result()">=</button></th>
+                <th><button class="button fn"  onclick="rewerse()">-/+</button></th>
+                 <th><button class="button num"  onclick="str('0')">0</button></th>
+                  <th><button class="button num"  onclick="str('.')">.</button></th>
+                   <th><button class="button task"  onclick="result()">=</button></th>
             </tr>
  </table>
  <script src="calc.js"></script>
